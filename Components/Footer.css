@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400..700&display=swap");
+
+.footer {
+  color: #fff;
+  background-color: #000;
+  padding: 2rem 0;
+  height: 300px;
+}
+.footer-container {
+  display: grid;
+  height: 200px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.ft-1 {
+  margin-left: 50px;
+}
+.ft-1 h3 {
+  font-weight: 700;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.ft-1 span {
+  color: #f60838;
+  font-family: "Pacifico", cursive;
+}
+.ft-1 p {
+  font-family: "Arvo", serif;
+  padding: 0rem 5rem 0.8rem 0;
+  font-weight: 500;
+  color: #a9a9a9;
+}
+.ft-1 img {
+  margin-right: 10px;
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+}
+.footer-icon a {
+  color: #000000;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 24px;
+  padding: 5px 11px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: #f8eeee;
+}
+
+.footer-icon a * {
+  margin-top: 6px;
+  padding: 0;
+}
+.footer-icon a:hover {
+  background-color: #f60838;
+  color: #fff;
+  transition: 0.6s;
+}
+.footer h5 {
+  color: #f60838;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: "Pacifico", cursive;
+  margin-bottom: 10px;
+}
+.ft-2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+.ft-2 ul li {
+  padding: 5px;
+  font-weight: 500;
+}
+.ft-2 ul a {
+  font-family: "Arvo", serif;
+  text-decoration: none;
+  font-size: 1.06rem;
+  color: #a9a9a9;
+}
+.ft-3 ul {
+  list-style: none;
+  padding-left: 0;
+}
+.ft-3 ul li {
+  padding: 0.35rem 0;
+  font-weight: 500;
+}
+.ft-3 ul a {
+  font-family: "Arvo", serif;
+  text-decoration: none;
+  font-size: 1.06rem;
+  color: #a9a9a9;
+}
+.ft-4 p {
+  font-family: "Arvo", serif;
+  font-weight: 500;
+  padding: 3px;
+  font-size: 1.06rem;
+  color: #a9a9a9;
+}
+.ft-4 i {
+  padding-right: 0.5rem;
+}
+.footer-last {
+  background-color: #f60838;
+  color: #a9a9a9;
+  text-align: center;
+  padding: 1rem 0;
+}
+.footer-last p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
